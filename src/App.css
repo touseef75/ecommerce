@@ -16,3 +16,11 @@ body{
 .headerWrapper .top-strip p{
 color: white;
 }
+.headerWrapper .header{
+  width: 100%;
+  height:auto;
+  padding: 10px 0px;
+}
+.logoWrapper{
+  width: 100%;
+}
