@@ -10,6 +10,11 @@ body{
 .bg-blue{
   background-color: #1e3c97;
 }
+@media (min-width: 1300px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1200px;
+  }
+}
 .headerWrapper .top-strip{
   padding: 8px 0px;
 }
@@ -19,7 +24,7 @@ color: white;
 .headerWrapper .header{
   width: 100%;
   height:auto;
-  padding: 10px 0px;
+  padding:25px 0px;
 }
 .logoWrapper{
   width: 100%;
@@ -114,4 +119,47 @@ color: rgba(0,0,0,0.8);
   color: white;
   width: 20px;height: 20px;
 
+}
+nav .allCartTab{
+  background-color: #1eb0fc;
+  padding: 8px 15px !important;
+  border-radius: 30px;
+}
+nav .allCartTab *{
+  color: white;
+}
+
+nav .allCartTab:hover{
+  background-color: #1eb0fc;
+
+}
+
+nav .allCartTab .text{
+  font-weight: 300;
+}
+nav .allCartTab .icon1 svg {
+  font-size: 20px !important;
+}
+nav .allCartTab .icon2 svg{
+  font-size: 15px !important;
+}
+nav .navpart2 ul{
+  margin-bottom: 0px;
+}
+nav .navpart2 ul li a{
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgba(0,0,0,0.8);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding: 8px 15px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 25px;
+}
+
+nav .navpart2 ul li a:hover{
+  background-color: #eaf9fc;
+  color: #1eb0fc;
 }

@@ -8,6 +8,8 @@ import { CiSearch } from "react-icons/ci";
 import { IoIosSearch } from "react-icons/io";
 import { FiUser } from "react-icons/fi";
 import { IoBagOutline } from "react-icons/io5";
+import SearchBox from './SearchBox';
+import Navigation from './Navigation';
 
 
 function Header() {
@@ -29,12 +31,7 @@ function Header() {
                 <div className='d-flex align-items-center col-sm-10 part2' >
                <CountryDropdown/>
                {/* Header search start here */}
-               <div className='headerSearch ml-3 mr-3'>
-                <input type='text' placeholder='Search for Products...'/>
-                <Button>
-                  <IoIosSearch />
-                </Button>
-               </div>
+              <SearchBox/>
                {/* Header search end here */}
 
 
@@ -55,6 +52,10 @@ function Header() {
             </div>
         </div>
     </header>
+
+    {/* navigation start */}
+    <Navigation/>
+    {/* navigation end */}
     </div>
     </>
   )
