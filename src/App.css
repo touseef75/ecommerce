@@ -24,3 +24,94 @@ color: white;
 .logoWrapper{
   width: 100%;
 }
+.headerWrapper .header .part2 .countryDrop{
+  width: 150px;
+  height: auto;
+  min-width: 170px;
+  text-align: left;
+  justify-content: flex-start !important;
+  padding: 10px 15px !important;
+  border: 1px solid rgba(0,0,0,0.1) !important;
+  border-radius: 7px !important;
+}
+.headerWrapper .header .part2 .countryDrop .lable{
+  text-transform: capitalize;
+  font-size: 12px !important;
+  color: black !important;
+  line-height: 20px;
+}
+.headerWrapper .header .part2 .countryDrop .name{
+  text-transform: capitalize;
+  font-size: 14px !important;
+  color: rgb(37, 37, 37) !important;
+  font-weight: 700;
+  line-height: 20px;
+
+}
+header .headerSearch{
+  width: 60%;
+  height: 60px;
+  background-color: #eff1f3;
+  padding: 10px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+header .headerSearch input{
+  background-color: transparent !important;
+  outline: none !important;
+  font-size: 14px;
+  color: grey;
+  width: 100%;
+  height: 40px;
+  border: none !important;
+  padding: 0px 20px !important;
+}
+header .headerSearch button{
+ position: absolute;
+ top: 10px;
+ right: 15px;
+ z-index: 100;
+ min-height: 40px !important;
+ height: 40px !important;
+ width: 40px !important;
+ border-radius: 50% !important;
+}
+header .headerSearch button svg{
+  font-size: 25px;
+}
+header .part3 .circle{
+  align-items: center;
+  justify-content: center;
+  min-width: 45px !important;
+  height: 45px !important;
+  width: 45px !important;
+  border-radius: 50% !important;
+  border: 1px solid rgba(0,0,0,0.1);
+  color: blue;
+}
+header .part3 .circle svg{
+  font-size: 20px;
+}
+.cartTab .price{
+font-size: 18px;
+font-weight: 700;
+color: rgba(0,0,0,0.8);
+}
+.cartTab button{
+  background-color: #fef1e7 !important;
+  color: #f93905;
+}
+.cartTab button svg{
+  color: #f93905 !important;
+}
+.cartTab .count{
+  position: absolute;
+  top: -6px;
+  right: -4px;
+  background-color: #f93905 !important;
+  border-radius: 50%;
+  color: white;
+  width: 20px;height: 20px;
+
+}
